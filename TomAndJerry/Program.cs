@@ -2,11 +2,16 @@
 
 namespace TomAndJerry
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        #region Private Methods
+
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Csata.Csatazas();
+            Console.ReadKey();
         }
+
+        #endregion Private Methods
     }
 }
